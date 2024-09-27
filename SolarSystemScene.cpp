@@ -27,7 +27,7 @@ void SolarSystemScene::RunFrame()
 
 	if (IsKeyPressed(KEY_SPACE)) {
 		currentScene = EScenes::MAIN_MENU;
-		TraceLog(LOG_INFO, "Changing Scene to %d ", currentScene);
+		TraceLog(LOG_INFO, "Changing Scene to %d", currentScene);
 	}
 
 	BeginDrawing();
